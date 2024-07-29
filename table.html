@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="table.css">
+    <title>قائمة المهام</title>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.jpg" alt="Logo" class="logo">
+      </div>
+    <div dir="rtl" class="container">
+        <button id="logoutButton"> طباعة ارشيف المهام </button>
+        <button id="logoutButton">اضافة مهمة جديدة </button>
+    <div dir="rtl" class="task-list">
+        <div class="title">مهام العمل </div>
+        <table id="taskTable">
+          <thead>
+            <tr>
+              <th>اسم المهمة</th>
+              <th>وقت المهمة</th>
+              <th>تاريخ المهمة</th>
+              <th>ملاحظة</th>
+              <th>الاهمية</th>
+              <th>الحالة</th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+            <td class="actions">
+                <button onclick=""><i class="fas fa-check"></i></button>
+                <button class="delete"><i class="fas fa-trash"></i></button>
+              </td>
+          </tbody>
+        </table>
+      </div>
+  
+      <div dir="rtl" class="submitted-tasks">
+        <div class="title">مهام العمل المكتملة</div>
+        <table id="submittedTaskTable">
+          <thead>
+            <tr>
+                <th>اسم المهمة</th>
+                <th>وقت المهمة</th>
+                <th>تاريخ المهمة</th>
+                <th>ملاحظة</th>
+                <th>الاهمية</th>
+                
+            </tr>
+          </thead>
+          <tbody>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+            <td>تجزبة</td>
+    
+          </tbody>
+        </table>
+      </div>
+    </div>
+</body>
+</html>
